@@ -1,0 +1,11 @@
+img {
+    width: 80px;
+    border-radius: 100px;
+    align-items: center;
+    padding: auto;
+}
+div{
+    background-color: black;
+    width: 90px;
+    border-radius: 100px;
+}
