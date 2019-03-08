@@ -1,5 +1,5 @@
 body{
-    background-color: #c8c8c8;
+    background-color: #2d3436;
 }
 
 .quadro{
@@ -20,4 +20,15 @@ img{
     display: block;
     margin: auto;
     border-radius: 20px;
+    border: 1px solid black;
+}
+.titulo{
+    color: #fff;
+    font-family: Roboto Condensed, sans-serif;
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.informacoes{
+    text-align: center;
 }
