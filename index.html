@@ -14,23 +14,60 @@
             <div class="quadro">
                 <img src="img/eu.jpg">
             </div>
+        </div>
+        <div class="container">
             <div class="informacoes">
                 <h2 class="titulo">Desenvolvedor .Net</h2>
-                <p class="conhecimentos">Possuo os seguintes conhecimentos:</p>
-                <p class="digitacao"></p>
+                <div class="bloco1 grid-7">
+                    <p class="subtitulo">Possuo os seguintes conhecimentos:</p>
+                    <ul>
+                        <li class="skills1">Asp.net MVC</li>
+                        <li class="skills2">C#</li>
+                        <li class="skills3">EntityFramework</li>
+                        <li class="skills4">html</li>
+                        <li class="skills5">css</li>
+                        <li class="skills6">Javascript</li>
+                        <li class="skills7">SQL</li>
+                    </ul>
+                </div>
+                <div class="bloco2 grid-7">
+                    <p class="subtitulo">Projetos</p>
+                    <ul>
+                        <li><a href="https://github.com/Diegolaquino/CodingCraft">CodingCraft</a></li>
+                        <li><a href="https://github.com/Diegolaquino/BikCraft">BikCraft</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <script>
-            function typeWrite(elemento)
+            function typeWrite(elemento, multiplicador)
             {
                 const textoArray = elemento.innerHTML.split('');
+                elemento.innerHTML = '';
                 textoArray.forEach((letra, i) => {
-                    console.log(letra);
+                    setTimeout(function(){
+                        elemento.innerHTML += letra;
+                    }, multiplicador * i)
                 })
 
             }
-            const titulo = document.querySelector(".conhecimentos");
-            typeWrite(titulo);
+
+            const subtitulo = document.querySelector(".subtitulo");
+            typeWrite(subtitulo, 75);
+            const skills1 = document.querySelector(".skills1");
+            typeWrite(skills1, 150);
+            const skills2 = document.querySelector(".skills2");
+            typeWrite(skills2, 150);
+            const skills3 = document.querySelector(".skills3");
+            typeWrite(skills3, 150);
+            const skills4 = document.querySelector(".skills4");
+            typeWrite(skills4, 150);
+            const skills5 = document.querySelector(".skills5");
+            typeWrite(skills5, 150);
+            const skills6 = document.querySelector(".skills6");
+            typeWrite(skills6, 150);
+            const skills7 = document.querySelector(".skills7");
+            typeWrite(skills7, 150);
         </script>
     </body>
 </html>
