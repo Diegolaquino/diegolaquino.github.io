@@ -55,3 +55,6 @@ div ul li{
     margin-left: 250px;
     margin-right: 250px;
 }
+.bloco1:hover{
+    background-color: black;
+}
