@@ -32,6 +32,7 @@ img{
     display: block;
     font-size: 30px;
     margin-top: 20px;    
+    margin-bottom: 20px;
 }
 .subtitulo{
     text-decoration: underline;
@@ -48,8 +49,9 @@ div ul li{
     letter-spacing: .0.7em;
 }
 .bloco1{
-    background-color: #474d53;
-}
-.bloco2{
-    background-color: #474d53;
+    background-color: #121212;
+    border-radius: 20px;
+    border: 1px solid black; 
+    margin-left: 250px;
+    margin-right: 250px;
 }
