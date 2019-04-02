@@ -3,67 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <title>diegolaquino</title>
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/grid.css">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+
     </head>
+	<!-- trocar section e div -->
     <body>
         <div class="container">
-            <div class="quadro">
-                <img src="img/eu.jpg">
-            </div>
-        </div>
-        <div class="container">
-            <div class="informacoes">
-                <h2 class="titulo">Desenvolvedor .Net</h2>
-                <div class="bloco1">
-                    <p class="subtitulo">Possuo os seguintes conhecimentos:</p>
+            <section class="grid-7">
+                <img src="/img/eu.jpg">
+                <div class="nome">Diego Aquino</div>
+                <div class="titulo">Desenvolvedor .Net</div>
+            </section>
+            <section class="grid-5 principal">
+                <div class="objetivo">Objetivo: desenvolvimento .Net</div>
+                <div class="info">
                     <ul>
-                        <li class="skills1">Asp.net MVC</li>
-                        <li class="skills2">C#</li>
-                        <li class="skills3">EntityFramework</li>
-                        <li class="skills4">html</li>
-                        <li class="skills5">css</li>
-                        <li class="skills6">Javascript</li>
-                        <li class="skills7">SQL</li>
-                        <li class="skills8">Linq</li>
+                        <li>Cel: 9 9203-4654</li>
+                        <li>Endereço:  Rua são fernando - Cascadura</li>
+                        <li>diegol.aquino@gmail.com</li>
                     </ul>
                 </div>
-            </div>
+            </section>
         </div>
-        <script>
-            function typeWrite(elemento, multiplicador)
-            {
-                const textoArray = elemento.innerHTML.split('');
-                elemento.innerHTML = '';
-                textoArray.forEach((letra, i) => {
-                    setTimeout(function(){
-                        elemento.innerHTML += letra;
-                    }, multiplicador * i)
-                })
+        <div class="container">
+           <div class="linhaP">
 
-            }
+           </div>
+           <div class="linhaM">
 
-            const subtitulo = document.querySelector(".subtitulo");
-            typeWrite(subtitulo, 75);
-            const skills1 = document.querySelector(".skills1");
-            typeWrite(skills1, 150);
-            const skills2 = document.querySelector(".skills2");
-            typeWrite(skills2, 250);
-            const skills3 = document.querySelector(".skills3");
-            typeWrite(skills3, 150);
-            const skills4 = document.querySelector(".skills4");
-            typeWrite(skills4, 350);
-            const skills5 = document.querySelector(".skills5");
-            typeWrite(skills5, 400);
-            const skills6 = document.querySelector(".skills6");
-            typeWrite(skills6, 250);
-            const skills7 = document.querySelector(".skills7");
-            typeWrite(skills7, 500);
-            const skills8 = document.querySelector(".skills8");
-            typeWrite(skills8, 550);
-        </script>
+           </div>
+
+        </div>
+       
     </body>
 </html>
