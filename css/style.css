@@ -36,4 +36,35 @@ img{
 
 .info ul li{
     margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: lighter;
 }
+
+.linhaP{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #000000;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.linhaM{
+    content: "";
+    display: block;
+    width: 240px;
+    height: 3px;
+    background: #000000;
+    margin-top: 30px;
+    margin-left: 380px;
+}
+
+.skills{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
