@@ -21,13 +21,13 @@ body{
   overflow: hidden;
 }
 .item{
-  border-top: 1px solid #2980b9;
+  border-top: 1px solid #7159c1;
   overflow: hidden;
 }
 .btn{
   display: block;
   padding: 16px 20px;
-  background: #3498db;
+  background: #7159c1;
   color: white;
   position: relative;
 }
@@ -36,7 +36,7 @@ body{
   position: absolute;
   width: 14px;
   height: 14px;
-  background:#3498db;
+  background:#7159c1;
   left: 20px;
   bottom: -7px;
   transform: rotate(45deg);
@@ -63,7 +63,7 @@ body{
   position: absolute;
   width: 6px;
   height: 100%;
-  background: #3498db;
+  background: #7159c1;
   left: 0;
   top: 0;
   transition: 0.3s;
