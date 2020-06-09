@@ -3,43 +3,82 @@
   <head>
     <meta charset="utf-8">
     <title>Diego Aquino</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   </head>
   <body>
-    <div class="middle">
-      <div class="menu">
-        <li class="item" id='profile'>
-          <a href="#profile" class="btn"><i class="far fa-user"></i>Profile</a>
-          <div class="smenu">
-            <a href="files/curriculo.pdf" target="_blank">Download Currículo</a>
-          </div>
-        </li>
-        <li class="item" id="projetos">
-          <a href="#projetos" class="btn"><i class="fas fa-laptop-code"></i>Projetos</a>
-          <div class="smenu">
-            <a href="#">BikCraft</a>
-            <a href="#">Calculadora</a>
-            <a href="#">CodingCraft</a>
-          </div>
-        </li>
-
-        <li class="item" id="contribuicoes">
-          <a href="#contribuicoes" class="btn"><i class="fas fa-code-branch"></i>Contribuições</a>
-          <div class="smenu">
-            <a href="https://developer.mozilla.org/en-US/profiles/diegolaquino" target="_blank">Tradução Mozilla</a>
-          </div>
-        </li>
-
-        <li class="item" id="contato">
-          <a class="btn" href="#contato"><i class="far fa-address-book"></i>Contato</a>
-          <div class="smenu">
-            <a href="#">diegol.aquino@gmail.com</a>
-            <a href="#">21 9 9203 4654</a>
-          </div>
-        </li>
-      </div>
+    <div class="header">
+      <header>
+          <ul class="list-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Freelancer</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contatos</a></li>
+          </ul>
+      </header>
+      <h2 class="call-title">Diego lima de aquino</h2>
     </div>
+    <!-- <section class="diego">
+      <div>
+
+      </div>
+    </section> -->
+    <section class="experiencias">
+      <div class="empresas">
+        <h1>Empresas</h1>
+        <p>Empresas que já trabalhei</p>
+        <ul>
+          <li>
+            <div class="empresa">
+              <img src="/img/logo-nibo.png">
+            </div>
+          </li>
+          <li>
+            <div class="empresa">
+            <img src="/img/kotrium.jpg">
+          </div>
+          </li>
+          <li>
+            <div class="empresa">
+            <img src="/img/mxm.png">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="conhecimentos">
+      
+        <div class="front">FRONT-END
+          <ul class="lista-conhecimentos">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>ANGULARJS</li>
+            <li>ANGULAR</li>
+          </ul>
+        </div>
+        <div class="mobile">MOBILE
+          <ul class="lista-conhecimentos">
+            <li>DART</li>
+            <li>FLUTTER</li>
+          </ul>
+        </div>
+        <div class="back">BACK
+          <ul class="lista-conhecimentos">
+            <li>C#</li>
+            <li>ASP NET CORE</li>
+            <li>WEBAPI</li>
+            <li>LINQ</li>
+            <li>ENTITY FRAMEWORK</li>
+            <li>SQL SERVER</li>
+          </ul>
+        </div>
+      
+    </section>
+    
+   
   </body>
 </html>

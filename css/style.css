@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   list-style: none;
   text-decoration: none;
 }
@@ -9,70 +9,124 @@ body{
   background-color: #000;
 }
 
-.middle{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+header{
+  width: 100%;
 }
-.menu{
-  width: 300px;
-  border-radius: 8px;
-  overflow: hidden;
+.header{
+  height: 500px;
+  background-image: url('/img/main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-.item{
-  border-top: 1px solid #7159c1;
-  overflow: hidden;
+
+.list-menu{
+  text-align: center;
+  padding-top: 40px;
 }
-.btn{
-  display: block;
-  padding: 16px 20px;
-  background: #7159c1;
+
+.list-menu li{
+  display: inline;
+  padding: 10px;
+ 
+}
+
+.list-menu a{
+  text-decoration: none;
   color: white;
-  position: relative;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 5px;
+  text-transform: uppercase;
 }
-.btn:before{
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  background:#7159c1;
-  left: 20px;
-  bottom: -7px;
-  transform: rotate(45deg);
+
+.list-menu a:hover{
+  border-bottom: 2px solid white;
 }
-.btn i{
-  margin-right: 10px;
+
+.call-title{
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
-.smenu{
-  background: #333;
-  overflow: hidden;
-  transition: max-height 0.3s;
-  max-height: 0;
+
+.experiencias{
+  background-color: #f3f3f3;
+  height: 370px;
 }
-.smenu a{
-  display: block;
-  padding: 16px 26px;
-  color: #7159c1;
+.empresas{
+  padding-top: 40px;
+}
+
+.empresas h1, .empresas p{
+  color: #552e8e;
+} 
+
+.empresas h1{
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+.empresas p{
+  margin-top: 15px;
+  text-align: center;
+}
+.empresas ul{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.empresas li{
+  display: inline-block;
+  margin: 20px;
+}
+
+.empresa img{
+  height: 150px;
+  width: 200px;
+}
+
+.conhecimentos div{
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 24px;
+}
+
+.back{
+  background-color: #262262;
+  width: 33%;
+  float: left;
+  height: 300px;
+}
+
+.mobile{
+  background-color: #552e8e;
+  width: 34%;
+  float: left;
+  height: 300px;
+}
+
+.front{
+ background-color: #1a7777;
+ width: 33%;
+ float: left;
+ height: 300px;
+}
+
+.lista-conhecimentos{
+  margin-top: 20px;
+}
+
+.lista-conhecimentos li{
+  font-family: 'Lato';
   font-size: 14px;
-  margin: 4px 0;
-  position: relative;
-  font-weight: 600;
-}
-.smenu a:before{
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 100%;
-  background: #fff;
-  left: 0;
-  top: 0;
-  transition: 0.3s;
-  opacity: 0;
-}
-.smenu a:hover:before{
-  opacity: 1;
-}
-.item:target .smenu{
-  max-height: 10em;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: none;
+  padding: 5px;
 }
